@@ -110,6 +110,9 @@ typedef struct builtin
 	int (*func)(info_t *);
 } builtin_table;
 
+void _puts(char *);
+int _putchar(char);
+
 
 /* toem_shloop.c */
 int hsh(info_t *, char **);
